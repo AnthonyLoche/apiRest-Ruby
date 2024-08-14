@@ -11,10 +11,28 @@
 sudo apt-get install gem
 ```
 
+- Instale o Ruby Dev;
+
+```bash
+sudo apt-get install ruby-dev
+```
+
 - Instale o Bundler;
 
 ```bash
 sudo gem install bundler
+```
+
+- Ajuste o `path` do Vendor;
+
+```bash
+bundle install --path vendor/bundle
+```
+
+- Instale os pacotes do projeto;
+
+```bash
+gem install sinatra json
 ```
 
 - Clone o repositório;
